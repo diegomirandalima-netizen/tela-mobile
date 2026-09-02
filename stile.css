@@ -56,14 +56,25 @@ input {
     width: 100%;
     padding: 0.75rem;
     background-color: #f00639;
-    color: white;
+    color: rgb(16, 240, 27);
     border: none;
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 0.5rem;
 }
+.enviar {
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 
+.bt
 .access-button:hover {
     background-color: #0056b3;
 }

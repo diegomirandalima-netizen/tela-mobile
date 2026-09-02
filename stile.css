@@ -17,11 +17,13 @@ body {
 .login-container {
     background-color: white;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 16px; /* Bordas arredondadas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 350px;
+    width: 350px; /* Largura fixa para formar um quadrado */
+    height: auto; /* Altura ajustável */
+    max-width: 90%; /* Garante que não ultrapasse a largura da tela */
     text-align: center;
+    border: 1px solid #ddd; /* Borda sutil para delimitar o quadrado */
 }
 
 h1 {
@@ -65,4 +67,3 @@ input {
 .access-button:hover {
     background-color: #0056b3;
 }
-
